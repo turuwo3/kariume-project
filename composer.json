@@ -1,0 +1,16 @@
+{
+	"name": "turuwo3/project",
+	"discription": "mvc framework project",
+	"license": "MIT",
+	"require": {
+		"turuwo3/mvc": "dev-develop",
+		"turuwo3/activerecord": "@dev"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\": "src"
+		}
+	}
+
+
+}

@@ -1,0 +1,79 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "35a5e6ea14c88ea57e23c7509f6c1bd2",
+    "content-hash": "725fccfe59e3f5947e9688219f6442ce",
+    "packages": [
+        {
+            "name": "turuwo3/activerecord",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/turuwo3/activerecord.git",
+                "reference": "9e7220a68528985c153028ad8175b7798356335e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/turuwo3/activerecord/zipball/9e7220a68528985c153028ad8175b7798356335e",
+                "reference": "9e7220a68528985c153028ad8175b7798356335e",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TRW\\ActiveRecord\\": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "activerecord!",
+            "time": "2016-01-21 15:10:49"
+        },
+        {
+            "name": "turuwo3/mvc",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/turuwo3/mvc.git",
+                "reference": "6b5429eb9a22f796f155024206ad208ca03467af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/turuwo3/mvc/zipball/6b5429eb9a22f796f155024206ad208ca03467af",
+                "reference": "6b5429eb9a22f796f155024206ad208ca03467af",
+                "shasum": ""
+            },
+            "require": {
+                "turuwo3/activerecord": "dev-develop"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TRW\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "skeleton app",
+            "time": "2016-01-23 02:58:27"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "turuwo3/mvc": 20,
+        "turuwo3/activerecord": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

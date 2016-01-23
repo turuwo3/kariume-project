@@ -1,0 +1,20 @@
+<p>
+<?php echo $error->getMessage(); ?>
+</p>
+<div>
+<?php foreach($error->getTrace() as $trace): ?>
+	<p>
+		<?php echo 'Class: '. $trace['class']; ?>
+	</p>
+	<p>
+		<?php echo 'File: ' . $trace['file']; ?>
+	</p>
+	<p>
+		<?php echo 'Line: ' . $trace['line']; ?>
+	</p>
+	<hr>
+<?php endforeach; ?>
+</div>
+<p>
+<?php echo $error->getLine(); ?>
+</p>
