@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "35a5e6ea14c88ea57e23c7509f6c1bd2",
-    "content-hash": "725fccfe59e3f5947e9688219f6442ce",
+    "hash": "aab26efbf5558a80cd82511099e5bcd0",
+    "content-hash": "96b351c8245d89b42070a9b0423e69ce",
     "packages": [
         {
             "name": "turuwo3/activerecord",
@@ -35,17 +35,17 @@
             "time": "2016-01-21 15:10:49"
         },
         {
-            "name": "turuwo3/mvc",
+            "name": "turuwo3/kariume",
             "version": "dev-develop",
             "source": {
                 "type": "git",
-                "url": "https://github.com/turuwo3/mvc.git",
-                "reference": "6b5429eb9a22f796f155024206ad208ca03467af"
+                "url": "https://github.com/turuwo3/kariume.git",
+                "reference": "be69c9a03cc039a7cb4147c03d4565d5a24d4fc8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/turuwo3/mvc/zipball/6b5429eb9a22f796f155024206ad208ca03467af",
-                "reference": "6b5429eb9a22f796f155024206ad208ca03467af",
+                "url": "https://api.github.com/repos/turuwo3/kariume/zipball/be69c9a03cc039a7cb4147c03d4565d5a24d4fc8",
+                "reference": "be69c9a03cc039a7cb4147c03d4565d5a24d4fc8",
                 "shasum": ""
             },
             "require": {
@@ -62,14 +62,14 @@
                 "MIT"
             ],
             "description": "skeleton app",
-            "time": "2016-01-23 02:58:27"
+            "time": "2016-01-26 01:12:09"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "turuwo3/mvc": 20,
+        "turuwo3/kariume": 20,
         "turuwo3/activerecord": 20
     },
     "prefer-stable": false,

@@ -1,9 +1,9 @@
 {
-	"name": "turuwo3/project",
+	"name": "turuwo3/kariume-project",
 	"discription": "mvc framework project",
 	"license": "MIT",
 	"require": {
-		"turuwo3/mvc": "dev-develop",
+		"turuwo3/kariume": "dev-develop",
 		"turuwo3/activerecord": "@dev"
 	},
 	"autoload": {
