@@ -5,7 +5,7 @@ return [
 	'App' => [
 		'namespace' => 'App',
 		'view' => dirname(__FILE__) . '/../src/View',
-		'layout' => dirname(__FILE__) . '/../src/Layout'
+		'layout' => dirname(__FILE__) . '/../src/Layout',
 		'element' => dirname(__FILE__) . '/../src/View/Element'
 	],
 	'Database'=>[
